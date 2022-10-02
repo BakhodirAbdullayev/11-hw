@@ -1,0 +1,55 @@
+.introSection {
+    width: 100%;
+    min-height: 467px;
+    background-color: #FBFBFB;
+}
+.introWrapper {
+    max-width: 1006px;
+    margin: 0 auto;
+    display: flex;
+    padding: 70px 20px 74px;
+    justify-content: space-between;
+    align-items: center;
+    @media only screen and (max-width:870px) {
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+    }
+}
+.introText {
+    max-width: 354px;
+    .textHead {
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 1.2;
+        margin-bottom: 15px;
+        position: relative;
+        
+        img {
+            position: absolute;
+            bottom: -5px;
+            right: 66px;
+        }
+        @media only screen and (max-width:450px) {
+            font-size: 50px;
+            img {
+                right: 0;
+                left: 150px;
+            }
+        }
+    }
+    .textTitle {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        color: #4A5568;
+    }
+}
+.introPhoto {
+    max-width: 476px;
+    img {
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+    }
+}

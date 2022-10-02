@@ -1,0 +1,60 @@
+.bigCardSection {
+    max-width: 966px;
+    margin: 39px auto;
+    border: 1px solid #E2E2E2;
+    box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    @media only screen and (max-width:800px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.bigCardText {
+    padding: 41px 54px;
+    max-width: 533px;
+    @media only screen and (max-width:550px) {
+        padding: 35px 20px;
+    }
+
+    .textHead {
+        font-weight: 700;
+        font-size: 30px;
+        color: #2D3748;
+        margin-bottom: 27px;
+    }
+    .textBody {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #718096;
+        margin-bottom: 30px;
+    }
+    .textFooter {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .footerDate {
+            font-size: 12px;
+            font-weight: 400;
+            color: #718096;
+        }
+        .footerLink {
+            font-weight: 700;
+            font-size: 12px;
+            color: #2D3748;
+        }
+    }
+}
+.bigCardPhoto {
+    max-width: 433px;
+    flex-shrink: 0;
+    // height: 100%;
+    img {
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+    }
+}

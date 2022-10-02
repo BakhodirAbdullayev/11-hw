@@ -1,0 +1,31 @@
+.footerSection {
+    max-width: 1006px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media only screen and (max-width:700px) {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+.footerText {
+    font-weight: 400;
+    text-align: center;
+    a {
+        font-weight: 700;
+    }
+}
+.footerSocial {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    color: #454444;
+
+    .footerSocialItem:hover {
+        color: #662BC5;
+    }
+}
